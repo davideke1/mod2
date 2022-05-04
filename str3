@@ -1,0 +1,6 @@
+#Program for replacing one substring by another For example - Rabbit -
+
+st = input("Enter a string ---> ")
+st_new = st.replace("bb","cc")
+print(st_new)
+        
