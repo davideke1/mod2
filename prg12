@@ -1,0 +1,6 @@
+ages = {'john': 45, 'vivin':34, 'david':35, 'joseph':60}
+main = dict(names=['john', 'vivin', 'david', 'joseph'], ages=[45, 34, 35, 60])
+max_value = max(main['ages'])
+min_value = min(main['ages'])
+print(f"Max age in the dictonary is {max_value}")
+print(f'Min age in the dictonary is {min_value}')
