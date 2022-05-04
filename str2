@@ -1,0 +1,30 @@
+# Program for replacing one substring by another For example - Rabbit -
+print("1) for a word\n2) for a sentence")
+choice = int(input("Enter 1 or 2 ---> "))
+
+
+def word_count(st, occur):
+    ls = st.split()
+    count = 0
+    for i in ls:
+        if i == occur:
+            count += 1
+    print(count)
+
+
+def letter_count(st, occur):
+    count = 0
+    for i in st:
+        if i == occur:
+            count += 1
+    print(count)
+
+
+if choice == 1:
+    st = input("Enter a string ---> ")
+    occur = input("Enter a word/letter to count ---> ")
+    letter_count(st, occur)
+else:
+    st = input("Enter a string ---> ")
+    occur = input("Enter a word/letter to count ---> ")
+    word_count(st, occur)
