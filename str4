@@ -1,0 +1,12 @@
+#Program to Acronym generator for any user input (ex-input is Random memory access
+#then output should be RMA).Example - Random number (RN)
+
+st = input("Enter a string ---> ")
+st = st.split()
+ls = []
+accr =""
+for i in st:
+    i = str(i)
+    accr += i[0]
+print(accr.upper())
+        
