@@ -1,0 +1,9 @@
+st = input("Enter a string ---> ")
+count_upp = 0
+count_low = 0
+for i in st:
+    if i.isupper():
+        count_upp +=1
+    else:
+        count_low += 1
+print(f"In '{st}', The number of upper case {count_upp} and lower case {count_low}")
